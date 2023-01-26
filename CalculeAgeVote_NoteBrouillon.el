@@ -332,4 +332,7 @@
   
 ;;;TEST7OK
 
+  (defvar surprise 4011)
+  
+  (setq surprise "coucou")
 

@@ -35,8 +35,8 @@
 ;;;DÉFINITION DE FONCTION
 (defun voter ()
   ;; CRÉATION DE LISTES
-					;(make-list 3 'voter))
-    (concat "Vous pouvez voter! Vous avez "
+                                        ; (make-list 3 voter))
+(concat "Vous pouvez voter! Vous avez "
 	  (number-to-string (- (string-to-number (format-time-string "%Y"))
 				     (string-to-number (substring *date-naiss* 0 4))))
 	  " ans.")
@@ -47,7 +47,7 @@
   (concat "Vous pourrez voter dans "
 	  (number-to-string
 	   (- 18 (- (string-to-number (format-time-string "%Y"))
-				     (string-to-number (substring *date-naiss* 0 4)))))
+				      (string-to-number (substring *date-naiss* 0 4)))))
 	  " an(s).")
   )
 
