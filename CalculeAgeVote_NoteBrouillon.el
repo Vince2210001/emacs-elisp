@@ -27,12 +27,12 @@
 
 ;;;BASES
 
-
 ;;;Hello World!
 (print "Hello World!")
+(message "Hello World!")
 (concat "Hello " "World!")
 
-  ;;Opérations mathématiques
+;;;Opérations mathématiques
 (+ 2 2)
 
 (* (+ 2 3) (- 5 3))
@@ -40,6 +40,18 @@
 (/ 5 4)
 
 (/ 5 4.0)
+
+;;;Équivalences ( t=true et nil=false )
+(= 3 4)
+
+(= 4 4)
+
+(eq 4 4.0)
+
+
+
+
+
 
 ;;;PROGRAMME PROGRAMME PROGRAMME PROGRAMME
 ;;;PROGRAMME PROGRAMME PROGRAMME PROGRAMME
