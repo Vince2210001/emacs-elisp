@@ -68,7 +68,11 @@
 		   (>= (- (string-to-number (format-time-string "%d")) (string-to-number (substring *date-naiss* 8 10))) 0)))	   
 	 (voter)
 	 (msg-trop-jeune)
-       )
-      )
-     )                              ; Mode Interactif *PLACEZ LE CURSEUR ICI POUR 
+	 )
+
+       ;; Mode Interactif
+       )                                ; *PLACEZ LE CURSEUR APRÈS LA PARENTHÈSE ")"
+                                        ; POUR LANCER LE PROGRAMME EN FAISANT CTRL+X & CTRL+E 
+     
+     )
    )
