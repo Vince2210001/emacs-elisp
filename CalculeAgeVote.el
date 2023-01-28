@@ -67,11 +67,11 @@
 		   (= (- (string-to-number (format-time-string "%m")) (string-to-number (substring *date-naiss* 5 7))) 0)
 		   (>= (- (string-to-number (format-time-string "%d")) (string-to-number (substring *date-naiss* 8 10))) 0)))	   
 	 (voter)
-	 (msg-trop-jeune)
+      (msg-trop-jeune)
 	 )
 
        ;; Mode Interactif
-       )                                ; *PLACEZ LE CURSEUR APRÈS LA PARENTHÈSE ")"
+       )                            ; *PLACEZ LE CURSEUR APRÈS LA PARENTHÈSE ")"
                                         ; POUR LANCER LE PROGRAMME EN FAISANT CTRL+X & CTRL+E 
      
      )
